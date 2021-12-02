@@ -1,3 +1,3 @@
 # 4k-video-download-patcher
 4k video downloader cracker\
-just compile and run. 
+It does not activate automatically, and you have to insert any cd key and press the button.
