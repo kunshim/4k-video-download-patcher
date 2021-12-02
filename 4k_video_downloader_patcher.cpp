@@ -1,6 +1,4 @@
-﻿
-
-#include <iostream>
+﻿#include <iostream>
 #include <Windows.h>
 
 bool initialize();
@@ -47,6 +45,7 @@ int main()
 		MessageBox(hwnd, L"Patch success!", L"Success", MB_OK);
 	else
 		MessageBox(hwnd, L"Patch fail!", L"Faiil", MB_OK | MB_ICONQUESTION);
+	fclose(fp);
 }
 
 bool initialize()
